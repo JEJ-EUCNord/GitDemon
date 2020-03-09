@@ -37,9 +37,10 @@
             this.label1.Location = new System.Drawing.Point(131, 96);
             this.label1.Margin = new System.Windows.Forms.Padding(9, 0, 9, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(226, 52);
+            this.label1.Size = new System.Drawing.Size(245, 51);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Hello Worl";
+            this.label1.Text = "Hello World";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
